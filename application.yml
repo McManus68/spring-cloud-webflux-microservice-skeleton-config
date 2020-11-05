@@ -10,7 +10,7 @@ eureka:
     
 microservice:
   payment-service:
-    endpoints:
-      endpoint:
-        uri: http://PLAYER-SERVICE/players
+    uri: http://PLAYER-SERVICE/players
+  court-service:
+    uri: http://COURT-SERVICE/courts
      
